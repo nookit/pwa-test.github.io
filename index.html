@@ -16,8 +16,8 @@
         <p>{{ message }}</p>
         <button v-on:click="reverseMessage">Reverse Message</button>
     </div>
-    <script>
-    < !--service workerの登録関係-- >
+    <script>git
+            < !--service workerの登録関係-- >
     if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('service_worker.js').then(function (registration) {
                 console.log('ServiceWorker registration successful with scope: ', registration.scope);
